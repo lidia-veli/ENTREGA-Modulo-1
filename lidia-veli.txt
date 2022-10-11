@@ -1,0 +1,137 @@
+## HISTORIAL ENTREGA MÓDULO 1
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ history -c
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ Lidia Velicia
+bash: Lidia: command not found
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ which git
+/mingw64/bin/git
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ git config --global user.name "Lidia Velicia"
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ git config --global user.email "lvelirui@myuax.com"
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Configuración local/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Datos de programa/': Permission denied
+warning: could not open directory 'Entorno de red/': Permission denied
+warning: could not open directory 'Impresoras/': Permission denied
+warning: could not open directory 'Menú Inicio/': Permission denied
+warning: could not open directory 'Mis documentos/': Permission denied
+warning: could not open directory 'Plantillas/': Permission denied
+warning: could not open directory 'Reciente/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    lidia.velicia_labom5_6mayo2020 -Final.ipynb
+        deleted:    nombre.apellido_labom5_6mayo2020.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .Epubor_Keys/
+        .bash_history
+        .gitconfig
+        .gnupg/
+        .idlerc/
+        .ipynb_checkpoints/
+        .lesshst
+        .local/
+        .sage/
+        .viminfo
+        .vscode/
+        3D Objects/
+        AppData/
+        Application Data/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        EpuborLog/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        My-First-Repository/
+        My-Second-Repository/
+        NTUSER.DAT
+        NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+        NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive - Universidad Alfonso X el Sabio/
+        OneDrive - Universidad Autonoma de Madrid/
+        Pictures/
+        Saved Games/
+        Searches/
+        Ultimate/
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ cd ~/.ssh
+bash: cd: /c/Users/velir/.ssh: No such file or directory
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ ssh-keygen -t rsa -C lvelirui@myuax.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/velir/.ssh/id_rsa):
+Created directory '/c/Users/velir/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/velir/.ssh/id_rsa
+Your public key has been saved in /c/Users/velir/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:qtnQRzEZYQaW/+7kcZMTNGnqYDSC2RH50wpuLfcHh9k lvelirui@myuax.com
+The key's randomart image is:
++---[RSA 3072]----+
+|      ===.       |
+|     =o+ o   .   |
+|    o oo*.  =    |
+|      .o++.+ .   |
+|     . oS+.+.    |
+|     .+++o= Eo   |
+|    ..oo.o+o=    |
+|     = . ooo.o   |
+|    o .  .o.     |
++----[SHA256]-----+
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ cd ~/.ssh
+
+velir@DESKTOP-HEDRIGM MINGW64 ~/.ssh (master)
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDOlsWORPpX6rBcsbUirPw0OZWhzcjLTNAqOmz24Wm4ctyfVne9tNqhnH92kgdIo0xaMxcCfpmjG3kD/A05urEJsFav/qL0w74fsIBFmoUrHsdyZNBUKURQxMr3gtxDCMhIVbBwHdAdLs8G23WfMItohrI1LKBE6+G55vL50xoxN2S64RFE0iNwyNUtn5RTgbdvubbbcYBmmvIKbO/lqmURm38sbluXF25e0BYTEau3aPWUdWWTDFUs/bVXIF4lAskQZ4CE21JwthOw52TagGsjHyappKR80zJyKonmw5pIS2K+w2l2O2/r36vDkyHVD/je0vrlCsOHXDp+TKivIgBpJASXAL7unB2HRe4YanZi03/ivd716tNxXFX6PtIEvLEECLQsqyE0jtDJhSOWIYyALGoZZKs7bG17wfd/ki2LCq+MpSaRef5cb5ov8jUcS8DNYZenNTWuckAHYDwHxL8Z3pKHs8Fv6QP9BZRYL5CuKIomr7POGpMWVl2hWiqKgj8= lvelirui@myuax.com
+
+velir@DESKTOP-HEDRIGM MINGW64 ~/.ssh (master)
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+bash: xclip: command not found
+
+velir@DESKTOP-HEDRIGM MINGW64 ~/.ssh (master)
+$ cd ..
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+
+Hi lidia-veli! You've successfully authenticated, but GitHub does not provide shell access.
+
+velir@DESKTOP-HEDRIGM MINGW64 ~ (master)
+$ history -w lidia-veli.txt
